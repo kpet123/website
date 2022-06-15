@@ -38,7 +38,7 @@ body {
     text-align: center;
     border-style:ridge;
     border-color: gray;
-    position:fixed;
+    position:absolute;
 
 }
 
