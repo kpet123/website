@@ -14,15 +14,17 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   min-height:500px;
-  margin: 1%;
-  padding:1%;
+
   
 }
 .header {
     background-color:#f2faf7;
+
+    color:black;
 	text-align:center;
     justify-content: center;
-    padding:5%;
+    padding-top:5%;
+    padding-bottom:1%;
     /*padding-left:10%*/
 
 
@@ -62,7 +64,7 @@ body {
 }
 
 #other_pos{
-    color:gray;
+    color: dimgray;
 }
 a.button {
     -webkit-appearance: button;
@@ -150,7 +152,8 @@ text-align:center;
 
 border-style:ridge none none none;
 border-color: gray;
-
+background-color:#f2faf7;
+color:black;
 left:0;
 bottom:0;
 width:100%;
@@ -160,10 +163,7 @@ margin-top:30;
 h2{
     color:#a779c9;
 }
-h1 {
-    color: black;
 
-}
 
 par {
     
