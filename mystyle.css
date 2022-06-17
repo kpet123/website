@@ -49,13 +49,11 @@ body {
 /*Navbar*/
 
 #nav_entry{
-    flex-grow:1;
+    flex:1;
 
     transition: transform .2s;
 }
-#nav_entry:hover {
-    background-color:#fcfbf7;
-}
+
 
 
 #cur_pos{
@@ -66,13 +64,19 @@ body {
 #other_pos{
     color: dimgray;
 }
-a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
 
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    color: initial;
+    
+}
+
+/* from https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black */
+li a:hover {
+    background-color:#fcfbf7;
+    text-decoration: none;
 }
 
 /*Single-entry*/

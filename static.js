@@ -40,7 +40,7 @@ var make_navbar= function(cur_page_name){
         else{
             pos = "other_pos"
         }
-        $(".navbar").append(`<li id="nav_entry">  <a id=${pos} class="button" href=${href} > ${name} </a> </li>`);
+        $(".navbar").append(`<li id="nav_entry">  <a style="flex:1" id=${pos} class="button" href=${href} > ${name} </a> </li>`);
         
       }
        
