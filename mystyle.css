@@ -5,7 +5,7 @@ body {
     flex-direction:column;
 	background-color: #ebeffc;
     font-family:courier;
-
+    min-height:500px;
 
 }
 
@@ -85,9 +85,9 @@ body {
   display:flex;
   flex-direction:column;
   color:black;
-  padding:50px;
-  margin:10px;
-  margin-left:60px;
+  padding:30px;
+  margin: 5%;
+
   background-color: #d7e5f5;
   transition: transform .2s;
   overflow: hidden;
@@ -104,8 +104,10 @@ body {
   display:flex;
   color:black;
   padding:30px;
-  margin:10px;
-  margin-left:60px;
+  margin:1%;
+  margin-right:5%;
+  margin-left:5%;
+
   background-color: #d7e5f5;
   transition: transform .2s;
   overflow: hidden;
