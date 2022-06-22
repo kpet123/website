@@ -129,8 +129,9 @@ body {
       background-color: #d7e5f5;
       transition: transform .2s;
       overflow: hidden;
+    }
+    
 }
-
 
      
 
@@ -154,7 +155,7 @@ body {
     diplay:flex;
     flex-direction:column;
     justify-content: center;
-    align: center;
+    align-items: center;
     border-radius:5px;
     border-color:black;
     
@@ -212,3 +213,6 @@ par {
     allow="autoplay";
     allowfullscreen;
 }
+
+
+
