@@ -53,6 +53,7 @@ var make_footer=function(){
    <h3> Contact</h3>
    <p><a href="mailto:kaitlinpet@gmail.com">kaitlinpet@gmail.com</a></p>
    <p>Author: Kaitlin Pet</p>
+   <p>Github: <a href="https://github.com/kpet123"> kpet123</a> </p>
   </div>`);
 }
 
