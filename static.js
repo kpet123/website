@@ -50,10 +50,9 @@ var make_navbar= function(cur_page_name){
 var make_footer=function(){
     
     $("footer").append(`<div class="footer">
-   <h3> Contact</h3>
-   <p><a href="mailto:kaitlinpet@gmail.com">kaitlinpet@gmail.com</a></p>
-   <p>Author: Kaitlin Pet</p>
+   <p>Contact: <a href="mailto:kaitlinpet@gmail.com">kaitlinpet@gmail.com</a></p>
    <p>Github: <a href="https://github.com/kpet123"> kpet123</a> </p>
+   <p> Last Updated: June 28, 2022 </p>
   </div>`);
 }
 
