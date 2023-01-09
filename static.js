@@ -1,5 +1,5 @@
-
-
+//Create navbar entries automatically
+//Names must matched loaded parameter in each .html page
 var navbar_entries = [
 {href:"./index.html",
  name: "Home",
@@ -10,6 +10,9 @@ var navbar_entries = [
 },
 {href:"./publications.html",
  name:"Publications",
+},
+{href:"./presentations.html",
+ name:"Presentations",
 },
 
 {href:"./music.html",
@@ -47,12 +50,13 @@ var make_navbar= function(cur_page_name){
 
 	}
 
+//Create footer automatically
 var make_footer=function(){
     
     $("footer").append(`<div class="footer">
    <p>Contact: <a href="mailto:kaitlinpet@gmail.com">kaitlinpet@gmail.com</a></p>
    <p>Github: <a href="https://github.com/kpet123"> kpet123</a> </p>
-   <p> Last Updated: June 28, 2022 </p>
+   <p> Last Updated: Jan 8, 2023 </p>
   </div>`);
 }
 
