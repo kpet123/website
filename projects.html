@@ -39,35 +39,59 @@
                     <div class='entry-description'>
                         <h2> Video Accompaniment  </h2>
                     	<par>
-						
+	
 We developed a “video accompaniment” system capable of closely aligning a pre-made music video to a live, tempo-varying musical performance. 
 Traditionally, “tight” video-to-audio synchrony is only capable with a musician-restricting system like a click track, 
 or making a human operator responsible for the timing of visual content. 
 Our system automatically aligns the video to a live music performance.
 It uses the Informatics Philharmonic automatic accompaniment software to 1) follow a musician’s score position in real time and 2) predict when the next score position will occur. 
-These position predictions are used to stretch the video such that animated gestures align with their musical counterparts. We worked with clarinetist and animator Nikki Pet to adapt two musical works by composer Joan Tower to this new medium. These works were performed at multiple venues with our video accompaniment system.
-						</par>
+These position predictions are used by a Max/MSP patch to stretch the video such that animated gestures align with their musical counterparts. 
+
+</par>
+<br>
+<par>
+We worked with clarinetist and animator Nikki Pet to adapt two musical works by composer Joan Tower to this new medium. 
+These works were performed at multiple venues with our video accompaniment system. 		
+Two of these performances can be seen in the embeded videos. 
+							
+<br>
+Work published at Sound and Music Conference 2023, linked <a href="./papers/SMC_2023__SMAC_2023_paper.pdf">here</a>.
+
+		</par>
 					</div>
                     <div class='entry-imagebox'>
                    
-                   
-<iframe class='iframe_single'  src="https://www.youtube.com/embed/fMIyeGLV2qU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-                   </div>
+<iframe class="iframe_double" src="https://www.youtube.com/embed/a-qCr5soJok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            
                 
+
+
+<iframe class="iframe_double" src="https://www.youtube.com/embed/0o_VUB56POM?start=1826" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
 
 
                 
-
-                
+		</div>
+                 
             <! -- Entry    Live Audio Effects     -->
  
                 <div id='network-cadenza' class='entry'>
                     <div class='entry-description'>
-                        <h2> Networked Cadenza - Live Audio Effects  </h2>
-                            <par> Currently developing a MaxMSP external of the Informatics Philharmonic application. This external will allow users to input a single-line music score. Then, when a user plays the piece, the external will output real-time predictions of when they will place future notes. This will allow for a range of applications including real-time generation of music videos, automatic stage performance light control, and improved score-based synchronization of new music compositions. Previously demonstrated proof-of-concept by modifiying the Informatics Philharmonic to send note predictions as UDP signals to a Max Patch. See video of SEAMUS Conference 2021 presentation (top) for a demonstration of the UDP-based prototype, and a sample composition by Kaitlin Pet demonstrating the close synchronization allowed by this software. </par>
-                    </div>
+                        <h2> Generic Accompaniment System  </h2>
+                    	<par>
+
+						Similar technology used for video accompaniment can also be utilized in the context of closely synchronized live audio effects in Max/MSP. 
+See embeded video for a demonstration of how pre-recorded sound effects and live audio effects can be triggered
+in close synchrony with pre-determined positions in the musical score. 
+                    
+<br>
+
+     The embedded video and Video Accompaniment project (above) all use a "networked" version of Informatics Philharmonic for audio/multimedia scheduling. 
+We are currently in the process of developing a MaxMSP external of the Informatics Philharmonic application. 
+This external will allow users to input a single-line music score. Then, when a user plays the piece, the external will output real-time predictions of when the musician will place future notes. 
+This will allow for a range of applications including real-time generation of music videos, automatic stage performance light control, and improved score-based synchronization of new music compositions.
+
+</par>
+                   </div>
                     <div class='entry-imagebox'>
                    
                    
@@ -82,8 +106,14 @@ These position predictions are used to stretch the video such that animated gest
                 <div id='virtual-ensemble-assembly' class='entry'>
                     <div class='entry-description'>
                         <h2> Virtual Ensemble Assembly  </h2>
-                            <par> Remotely assembled music today depends on a pre-determined ``reference track". While reference tracks ensure all parts sound `in sync' when combined, they restrict a musician's ability  to pick their own tempo or perform other timing-related musical gestures. Working with expert ensembles, we present experiments that address this problem. We first created a remote assembly pipeline allowing artists to have temporal freedom  during the recording process. We then develop three algorithms that preserved players' original timing intentions while ensuring relative synchrony between parts: 1) direct modeling of chamber music expertise, 2) optimization of desirable performance qualities, and 3) performance simulation based on competing goals.  Though the resulting music we assembled did not capture the full expressive range of an in-person performance, our work both increases the quality and ease of making remote recording and introduces exciting new applications for aiding synchronous rehearsal and performance.  </par>
-                    </div>
+                            <par> Remotely assembled music today depends on a pre-determined ``reference track". While reference tracks ensure all parts sound `in sync' when combined, they restrict a musician's ability  to pick their own tempo or perform other timing-related musical gestures. Working with expert ensembles, we present experiments that address this problem. We first created a remote assembly pipeline allowing artists to have temporal freedom  during the recording process. We then develop three algorithms that preserved players' original timing intentions while ensuring relative synchrony between parts: 1) direct modeling of chamber music expertise, 2) optimization of desirable performance qualities, and 3) performance simulation based on competing goals.  Though the resulting music we assembled did not capture the full expressive range of an in-person performance, our work both increases the quality and ease of making remote recording and introduces exciting new applications for aiding synchronous rehearsal and performance.  
+ 	
+<br>
+Work published at Web Audio Conference WECML Workshop 2022, linked <a href="./papers/WAC_2022_paper_60.pdf">here</a>.
+</par>
+
+
+                   </div>
                     <div class='entry-imagebox'>
                         <iframe class="iframe_double" src="https://drive.google.com/file/d/1FGQpyYtc0SJyqLe7Inx8vHR_77kQNme_/preview" allow="autoplay"></iframe>
                         
@@ -126,8 +156,12 @@ These position predictions are used to stretch the video such that animated gest
                   <par> I worked with composer JacobTV and saxophonist Connie Frigo to adapt three of his pieces, Billie, Garden of Love, and Farewell Feathered Frieds, for flexible media using the Informatics Philharmonic software. I coined "Flexible media" as fixed media piece outfitted with score prediction software so it can speed up and slow down to match the tempo of a live player. Through this process, we explored the benefits and drawbacks of this new medium of performance. </par>
                   
                   <br>
-                  <par>The top video shows Jamey Guzeman performing JacobTV's Farewell Feathered Friends with our flexible system. The bottom video is a recording of a presentation at the North American Saxophone Allience 2019 conference, where saxophonist Connie Frigo presented and performed a flexible verison of Billie.</par>
-                  
+                  <par>The top video shows Jamey Guzeman performing JacobTV's Farewell Feathered Friends with our flexible system. The bottom video is a recording of a presentation at the North American Saxophone Allience 2019 conference, where saxophonist Connie Frigo presented and performed a flexible verison of Billie.
+                  	
+<br>
+Work published at Sound and Music Conference 2021, linked <a href="./papers/SMC_2021_paper_52.pdf">here</a>.
+</par>
+
           </div>
           <div class='entry-imagebox'>
               
