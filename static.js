@@ -56,7 +56,7 @@ var make_footer=function(){
     $("footer").append(`<div class="footer">
    <p>Contact: <a href="mailto:kaitlinpet@gmail.com">kaitlinpet@gmail.com</a></p>
    <p>Github: <a href="https://github.com/kpet123"> kpet123</a> </p>
-   <p> Last Updated: Jan 8, 2023 </p>
+   <p> Last Updated: May 10, 2023 </p>
   </div>`);
 }
 
