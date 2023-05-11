@@ -3,6 +3,11 @@
 
 Directions for publishing: https://pages.github.com/
 
+A push to main should be sufficient for publication. 
+
+If you run into publishing issues, go to https://stackoverflow.com/questions/24713112/why-does-my-github-page-not-update-its-content
+
+I switched the branch in Settings->Pages and that worked on May 11 2023
 
 # Organization Notes
 
